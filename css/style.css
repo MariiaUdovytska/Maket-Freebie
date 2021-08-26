@@ -123,9 +123,10 @@ body {
 }
 
 .header__textandsearch {
-  margin: auto 300px;
+  margin: auto;
   padding: 177px 0px;
   text-align: center;
+  max-width: 540px;
 }
 
 .header__title {

@@ -44,10 +44,12 @@ body {
   }
 
   &__textandsearch {
-    margin: auto 300px;
+    margin: auto;
     padding: 177px 0px;
     text-align: center;
+    max-width: 540px;
   }
+
   &__title {
     font-size: 30px;
     line-height: 24px;
