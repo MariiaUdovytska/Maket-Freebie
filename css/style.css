@@ -187,3 +187,131 @@ body {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 7px;
 }
+
+.along {
+  margin: 30px auto;
+}
+
+.along__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.along__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 67.1%;
+          flex: 0 1 67.1%;
+}
+
+.along__left-content {
+  background-color: #ffffff;
+  padding: 35px 30px 23px 30px;
+}
+
+.along__left-content-title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #33363b;
+}
+
+.along__left-content-title:after {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #ff7098;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.along__left-content-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #868d9b;
+}
+
+.along__left-content-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.along__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32.9%;
+          flex: 0 1 32.9%;
+}
+
+.along__right-image {
+  background-image: url(../img/block_2/cup.png);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.along__right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.along__right-column-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.along__right-column-center {
+  position: relative;
+}
+
+.along__right-column-center-bg {
+  background-image: url(../img/block_2/separator_417.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
