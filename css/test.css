@@ -4,30 +4,8 @@
   /*--main: #ffffff;*/
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  background: #ff578e;
-}
-
-html {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: Comfortaa;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 16px;
-  color: var(--main);
-}
-
 .player-container {
-  padding: 40px;
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
 }
 
@@ -35,8 +13,6 @@ html {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  -webkit-box-shadow: 0px 10px 0px -3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 10px 0px -3px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
   background: #000000;
