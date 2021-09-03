@@ -17,6 +17,89 @@
   padding: 0px;
 }
 
+.ramsay__left-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px auto;
+}
+
+.ramsay__left-column-up {
+  text-align: center;
+  background-color: #fff;
+}
+
+.ramsay__left-column-up h4 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #33363b;
+  margin: 15px 0px 7px 0px;
+}
+
+.ramsay__left-column-up h2 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #868d9b;
+  margin-bottom: 29px;
+}
+
+.ramsay__left-fotowname {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 100%;
+  margin-top: -61px;
+}
+
+.ramsay__left-column-down {
+  padding: 32px 31px 31px 31px;
+  height: 175px;
+  background-color: #fff;
+  margin-top: 1px;
+}
+
+.ramsay__left-column-down-text {
+  margin: 0px 7px 25px 7px;
+}
+
+.ramsay__left-column-down-text small {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #33363b;
+}
+
+.ramsay__left-column-down-text h6 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #868d9b;
+  margin-bottom: 0px;
+}
+
+.ramsay__left-column-btn {
+  border-radius: 7px;
+  width: 298px;
+  height: 50px;
+  background-color: #24c5a1;
+}
+
+.ramsay__left-column-btn span {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
 .ramsay__right {
   padding: 0px 15px;
 }
@@ -27,6 +110,8 @@
 
 .card {
   margin-top: 0px !important;
+  padding: 0px !important;
+  background-color: unset !important;
   width: 360px;
   height: 504px;
   border: none;
