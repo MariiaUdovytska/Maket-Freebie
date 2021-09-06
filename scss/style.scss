@@ -124,8 +124,15 @@ body {
       margin: 0px 0px;
       height: 100%;
     }
+    .along__left {
+      padding: 0px;
+      justify-content: center;
+    }
     .along__right {
       width: 360px;
+      padding: 0px;
+      margin-top: 30px;
+      align-self: center;
     }
     .along__right-image {
       height: 264px;
