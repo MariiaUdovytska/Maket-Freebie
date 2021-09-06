@@ -136,3 +136,35 @@ speedBtns.forEach(speedBtn => {
 	speedBtn.addEventListener('click', setSpeed);
 })
 window.addEventListener('keydown', handleKeypress);
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+let likebutton = document.getElementById("likebutton");
+let likenum = document.getElementById("likenum");
+
+
+function likeButtonClick() {
+	let number = likenum.innerHTML;
+	number = parseInt(number, 10); 
+	number++;
+	likenum.innerHTML = number;
+};
+
+likebutton.addEventListener('click', likeButtonClick); 
+
+let likebuttontwo = document.getElementById("likebuttontwo");
+let likenumtwo = document.getElementById("likenumtwo");
+
+function likeButtonTwoClick () {
+	let numberTwo = likenumtwo.innerHTML;
+	numberTwo = parseInt(numberTwo, 10);
+	numberTwo++;
+	likenumtwo.innerHTML = numberTwo;
+};
+
+likebuttontwo.addEventListener('click', likeButtonTwoClick)
+
