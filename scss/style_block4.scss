@@ -65,5 +65,10 @@
   &__content-down-name {
     font-weight: 500;
     color: #ffa24f;
+    transition: all 0.5s ease;
+  }
+  &__content-down-name:hover {
+    font-weight: 600;
+    color: #fc6119;
   }
 }

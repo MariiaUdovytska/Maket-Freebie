@@ -71,4 +71,11 @@
 .gentleman__content-down-name {
   font-weight: 500;
   color: #ffa24f;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.gentleman__content-down-name:hover {
+  font-weight: 600;
+  color: #fc6119;
 }
