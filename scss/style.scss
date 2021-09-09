@@ -1,5 +1,6 @@
 @import "nullstyle.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -23,8 +24,6 @@ body {
 .page {
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -54,6 +53,32 @@ body {
     padding: 177px 0px;
     text-align: center;
     max-width: 540px;
+  }
+
+  @media (max-height: 490px) {
+    .header__textandsearch {
+      padding: 160px 0px;
+    }
+  }
+  @media (max-height: 450px) {
+    .header__textandsearch {
+      padding: 143px 0px;
+    }
+  }
+  @media (max-height: 410px) {
+    .header__textandsearch {
+      padding: 125px 0px;
+    }
+  }
+  @media (max-height: 370px) {
+    .header__textandsearch {
+      padding: 100px 0px;
+    }
+  }
+  @media (max-height: 340px) {
+    .header__textandsearch {
+      padding: 80px 0px;
+    }
   }
 
   &__title {
