@@ -26,6 +26,17 @@
   height: 100vh;
 }
 
+.great__img:hover:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  background-image: -webkit-gradient(linear, right top, left top, from(#11de93), to(#0e7ad6));
+  background-image: linear-gradient(to left, #11de93, #0e7ad6);
+  opacity: 0.5;
+}
+
 .great__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,6 +129,6 @@
 
 .great__right-btn:hover {
   color: #fff;
-  background-color: blue;
+  background-color: #24c5a1;
   border: 1px solid #99a3b4;
 }
