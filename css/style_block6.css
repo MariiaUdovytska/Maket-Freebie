@@ -1,0 +1,123 @@
+.great {
+  padding-top: 30px;
+}
+
+.great__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.great__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 51.4%;
+          flex: 1 0 51.4%;
+}
+
+.great__img {
+  background-image: url(../img/block_6/image_425.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.great__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 48.6%;
+          flex: 1 0 48.6%;
+  background-color: #fff;
+  padding: 58px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.great__right p {
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #626a73;
+  text-align: center;
+}
+
+.great__right-up {
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  color: #33363b;
+}
+
+.great__right-up::before {
+  display: inline-block;
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #33363b;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+.great__right-up::after {
+  display: inline-block;
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #33363b;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+.great__right-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #33363b;
+}
+
+.great__right-title::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #33363b;
+  margin: 39px auto 0px;
+}
+
+.great__right-btn {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #33363b;
+  width: 165px;
+  height: 50px;
+  background-color: rgba(98, 106, 115, 0);
+  border: 1px solid #99a3b4;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.great__right-btn:hover {
+  color: #fff;
+  background-color: blue;
+  border: 1px solid #99a3b4;
+}
