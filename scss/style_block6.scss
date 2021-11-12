@@ -15,13 +15,13 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     //position: relative;
     &:hover:after {
       content: "";
       display: block;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       background: transparent;
       background-image: linear-gradient(to left, #11de93, #0e7ad6);
       opacity: 0.5;
@@ -45,6 +45,7 @@
       letter-spacing: 0.025em;
       color: #626a73;
       text-align: center;
+      margin: 29px 0px 38px;
     }
   }
 
@@ -80,18 +81,21 @@
     //line-height: 24px;
     font-weight: 700;
     color: #33363b;
+    text-align: center;
+    margin-top: 13px;
+
     &::after {
       display: block;
       content: ("");
       width: 60px;
       height: 4px;
       background-color: #33363b;
-      margin: 39px auto 0px;
+      margin: 29px auto 0px;
     }
   }
 
   &__right-btn {
-    align-self: center;
+    line-height: 3px;
     font-size: 14px;
     font-weight: 500;
     color: #33363b;
