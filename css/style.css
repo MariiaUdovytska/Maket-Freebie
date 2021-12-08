@@ -142,39 +142,19 @@ body {
 
 .header__textandsearch {
   margin: auto;
-  padding: 177px 0px;
   text-align: center;
   max-width: 540px;
-}
-
-@media (max-height: 490px) {
-  .header .header__textandsearch {
-    padding: 160px 0px;
-  }
-}
-
-@media (max-height: 450px) {
-  .header .header__textandsearch {
-    padding: 143px 0px;
-  }
-}
-
-@media (max-height: 410px) {
-  .header .header__textandsearch {
-    padding: 125px 0px;
-  }
-}
-
-@media (max-height: 370px) {
-  .header .header__textandsearch {
-    padding: 100px 0px;
-  }
-}
-
-@media (max-height: 340px) {
-  .header .header__textandsearch {
-    padding: 80px 0px;
-  }
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__title {
