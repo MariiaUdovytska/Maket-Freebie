@@ -95,6 +95,11 @@ body {
 .form-control::placeholder {
   color: #cacdd3;
 }
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+  border: 2px solid #8c91ff;
+}
 .me-2 {
 }
 .btn {
@@ -106,6 +111,10 @@ body {
   border-top-right-radius: 7px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 7px;
+}
+.btn:focus {
+  border-color: none;
+  box-shadow: none;
 }
 
 .along {
