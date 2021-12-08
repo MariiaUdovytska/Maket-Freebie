@@ -11,6 +11,9 @@
 
 .ramsay__left {
   padding: 0px 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.5%;
+          flex: 1 1 33.5%;
 }
 
 .ramsay__left-body {
@@ -25,7 +28,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px auto;
 }
 
 .ramsay__left-column-up {
@@ -49,6 +51,11 @@
   letter-spacing: 0.025em;
   color: #868d9b;
   margin-bottom: 29px;
+}
+
+.ramsay__left-upimg {
+  max-width: 100%;
+  height: 179px;
 }
 
 .ramsay__left-fotowname {
@@ -88,7 +95,6 @@
 
 .ramsay__left-column-btn {
   border-radius: 7px;
-  width: 298px;
   height: 50px;
   background-color: #24c5a1;
   -webkit-transition: all 0.5s ease;
@@ -104,18 +110,16 @@
 
 .ramsay__right {
   padding: 0px 15px;
-  width: 100%;
-}
-
-.ramsay__video {
-  width: 750px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 66.5%;
+          flex: 1 1 66.5%;
 }
 
 .card {
   margin-top: 0px !important;
   padding: 0px !important;
   background-color: unset !important;
-  width: 360px;
+  width: 100%;
   height: 504px;
   border: none;
   border-radius: 0;
