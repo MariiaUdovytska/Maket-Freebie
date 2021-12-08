@@ -232,7 +232,7 @@ body {
   height: 264px;
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 1110px) {
   .along .along__row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -245,10 +245,11 @@ body {
     height: 100%;
   }
   .along .along__left {
+    height: 100vh;
     padding: 0px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  .along .along__left-image {
+    height: 100%;
   }
   .along .along__right {
     width: 360px;
@@ -275,6 +276,22 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 67.1%;
           flex: 0 1 67.1%;
+}
+
+.along__left-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+          flex: 0 1 48%;
+  background-image: url(../img/block_2/image.png);
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .along__left-content {
