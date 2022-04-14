@@ -1,4 +1,24 @@
 .introduction {
+
+	@media (max-width:1004px) {
+		.introduction__left{
+			margin-right: 30px;
+		}
+	}
+	@media (max-width:840px) {
+		.introduction__left{
+			display: none;
+		}
+		.introduction__left-word-media{
+			display: block;
+			font-size: 17.8px;
+			font-weight: 700;
+			letter-spacing: 0.025em;
+			color: #33363b;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+	}
   &__bg {
     background-color: #fff;
   }
@@ -43,6 +63,9 @@
     color: #33363b;
     align-self: center;
     margin-bottom: 15px;
+  }
+  &__left-word-media{
+	  display: none;
   }
 
   &__right {
