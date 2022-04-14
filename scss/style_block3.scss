@@ -6,9 +6,20 @@
   }
 
   @media (max-width: 1160px) {
-    .ramsay__right {
+	  .ramsay__row{
+		  flex-direction: column;
+	  }
+	  .ramsay__left{
+		  margin-bottom: 30px;
+	  }
+  }
+  @media (max-width: 914px){
+	.ramsay__right {
       display: none;
     }
+	 .ramsay__left{
+		margin-bottom: 0px;
+	}
   }
 
   &__left {

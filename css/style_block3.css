@@ -10,8 +10,23 @@
 }
 
 @media (max-width: 1160px) {
+  .ramsay .ramsay__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ramsay .ramsay__left {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 914px) {
   .ramsay .ramsay__right {
     display: none;
+  }
+  .ramsay .ramsay__left {
+    margin-bottom: 0px;
   }
 }
 

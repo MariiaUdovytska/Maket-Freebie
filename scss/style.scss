@@ -138,10 +138,6 @@ body {
       margin: 0px 0px;
       height: 100%;
     }
-    .along__left {
-      // height: 100vh;
-      // padding: 0px;
-    }
     .along__left-image {
       min-height: 263px;
     }
@@ -169,7 +165,7 @@ body {
 	}
 	.along__left-image {
       display: none;
-    }
+   }
 	.along__left-content::before{
 		display: none;
 	}
