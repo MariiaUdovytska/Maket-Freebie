@@ -6,6 +6,9 @@
 		}
 	}
 	@media (max-width:840px) {
+		.introduction__row{
+			flex-direction: column;
+		}
 		.introduction__left{
 			display: none;
 		}

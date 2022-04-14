@@ -5,6 +5,12 @@
 }
 
 @media (max-width: 840px) {
+  .introduction .introduction__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .introduction .introduction__left {
     display: none;
   }
