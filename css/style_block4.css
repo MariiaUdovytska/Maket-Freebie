@@ -2,6 +2,18 @@
   padding-top: 30px;
 }
 
+@media (max-width: 714px) {
+  .gentleman .gentleman__content-center {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 675px) {
+  .gentleman .gentleman__content-center {
+    font-size: 50px;
+  }
+}
+
 .gentleman__image {
   background-image: url(../img/block_4/photo_bg.png);
   background-position: center;

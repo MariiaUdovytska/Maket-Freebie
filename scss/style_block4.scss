@@ -1,4 +1,15 @@
 .gentleman {
+
+	@media (max-width:714px) {
+		.gentleman__content-center{
+			font-size: 55px;
+		}
+	}
+	@media (max-width:675px) {
+		.gentleman__content-center{
+			font-size: 50px;
+		}
+	}
   padding-top: 30px;
 
   &__image {
