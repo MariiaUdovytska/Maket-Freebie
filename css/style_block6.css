@@ -32,8 +32,8 @@
   width: 100%;
   height: 100%;
   background: transparent;
-  background-image: -webkit-gradient(linear, right top, left top, from(#11de93), to(#0e7ad6));
-  background-image: linear-gradient(to left, #11de93, #0e7ad6);
+  background-image: -webkit-gradient(linear, right top, left top, from(#dae1e9), to(#71b4ee));
+  background-image: linear-gradient(to left, #dae1e9, #71b4ee);
   opacity: 0.5;
 }
 
