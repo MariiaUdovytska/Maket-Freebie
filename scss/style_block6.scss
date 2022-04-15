@@ -1,4 +1,17 @@
 .great {
+
+	@media (max-width:1040px) {
+		.great__left{
+			flex: 1 0 41.4%;
+		}
+		
+	}
+	@media (max-width:940px) {
+		.great__left{
+			display: none;
+		}
+	}
+
   padding-top: 30px;
 
   &__row {
