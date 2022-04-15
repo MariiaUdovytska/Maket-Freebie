@@ -141,6 +141,7 @@ body {
 }
 
 .header__textandsearch {
+  padding: 0px 12px;
   margin: auto;
   text-align: center;
   max-width: 540px;

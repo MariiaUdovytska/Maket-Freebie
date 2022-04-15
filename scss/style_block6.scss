@@ -11,6 +11,25 @@
 			display: none;
 		}
 	}
+	@media (max-width:748px) {
+		.great__right{
+			padding: 38px;
+		}
+	}
+	@media (max-width:695px) {
+		.great__right{
+			padding: 28px;
+		}
+	}
+	@media (max-width:620px) {
+		.great__right p{
+			font-size: 15px;
+			line-height: 30px;
+		}
+		.great__right-title{
+			font-size: 30px;
+		}
+	}
 
   padding-top: 30px;
 

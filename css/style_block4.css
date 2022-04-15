@@ -8,9 +8,12 @@
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 695px) {
+  .gentleman .gentleman__content {
+    padding: 60px 0px 57px 53px;
+  }
   .gentleman .gentleman__content-center {
-    font-size: 50px;
+    font-size: 44px;
   }
 }
 

@@ -16,6 +16,28 @@
   }
 }
 
+@media (max-width: 748px) {
+  .great .great__right {
+    padding: 38px;
+  }
+}
+
+@media (max-width: 695px) {
+  .great .great__right {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 620px) {
+  .great .great__right p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .great .great__right-title {
+    font-size: 30px;
+  }
+}
+
 .great__row {
   display: -webkit-box;
   display: -ms-flexbox;
