@@ -109,6 +109,12 @@ body {
   }
 }
 
+@media (max-width: 520px) {
+  body {
+    padding: 45px 30px;
+  }
+}
+
 .page {
   height: 100%;
   width: 100%;
@@ -123,6 +129,15 @@ body {
 
 .containerM {
   margin: 0px auto;
+}
+
+@media (max-width: 520px) {
+  .header .header__title {
+    font-size: 22px;
+  }
+  .header .header__sub-title {
+    font-size: 12px;
+  }
 }
 
 .header__content {
