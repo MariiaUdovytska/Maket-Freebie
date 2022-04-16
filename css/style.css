@@ -258,6 +258,9 @@ body {
     margin: 0px 0px;
     height: 100%;
   }
+  .along .along__left {
+    padding: 0px 0px;
+  }
   .along .along__left-image {
     min-height: 263px;
   }

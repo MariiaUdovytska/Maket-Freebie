@@ -133,15 +133,15 @@ body {
   }
 
   @media (max-width: 1110px) {
-    .along {
-      // height: 100vh;
-    }
     .along__row {
       display: flex;
       flex-direction: column;
       margin: 0px 0px;
       height: 100%;
     }
+	 .along__left{
+		 padding: 0px 0px;
+	 }
     .along__left-image {
       min-height: 263px;
     }
