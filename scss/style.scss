@@ -173,17 +173,26 @@ body {
        min-height: 287px;
     }
   }
-  @media (max-width: 793px){
-	.along__left{
-		display: contents;
+	@media (max-width: 793px){
+		.along__left{
+			display: contents;
+		}
+		.along__left-image {
+			display: none;
+		}
+		.along__left-content::before{
+			display: none;
+		}
 	}
-	.along__left-image {
-      display: none;
-   }
-	.along__left-content::before{
-		display: none;
+	@media (max-width: 520px){
+		.along__right{
+			width: 302px;
+		}
+		.along__left-content{
+			padding: 20px 13px 20px 25px;
+		}
+
 	}
-}
   &__left {
     padding: 0px 15px;
     display: flex;

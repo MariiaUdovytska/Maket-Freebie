@@ -313,6 +313,15 @@ body {
   }
 }
 
+@media (max-width: 520px) {
+  .along .along__right {
+    width: 302px;
+  }
+  .along .along__left-content {
+    padding: 20px 13px 20px 25px;
+  }
+}
+
 .along__left {
   padding: 0px 15px;
   display: -webkit-box;
