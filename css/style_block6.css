@@ -38,6 +38,13 @@
   }
 }
 
+@media (max-width: 520px) {
+  .great .great__right p {
+    font-size: 13px;
+    line-height: 27px;
+  }
+}
+
 .great__row {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -21,6 +21,11 @@ body {
     width: 1140px;
   }
 }
+@media(max-width: 600px){
+	body{
+		padding: 65px 50px;
+	}
+}
 @media(max-width: 520px){
 	body{
 		padding: 45px 30px;
