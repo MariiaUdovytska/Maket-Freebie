@@ -34,6 +34,23 @@
 			line-height: 30px;
 		}
 	}
+	@media (max-width:577px){
+		.introduction__row{
+			padding: 42px 48px 55px 37px;
+		}
+	}
+	@media (max-width:520px){
+		.introduction__row{
+			padding: 42px 38px 45px 27px;
+		}
+		.introduction__right p{
+			font-size: 13px;
+			line-height: 27px;
+		}
+		.introduction__right p:first-child{
+			margin-bottom: 2rem;
+		}
+	}
   &__bg {
     background-color: #fff;
   }
